@@ -1,0 +1,170 @@
+/* based on https://unpkg.com/bootstrap-darkmode@0.7.0/dist/darktheme.css */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
+body {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  background-color: #181818;
+  color: #bebebe;
+
+}
+.navbar {
+  background-color: #282828 !important;
+}
+.navbar .navbar-brand,
+.navbar-light .navbar-brand,
+.navbar-dark .navbar-brand,
+.navbar .navbar-nav .nav-link.active {
+  color: #fefefe;
+}
+.navbar .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link {
+  color: #bebebe;
+}
+.navbar .navbar-nav .nav-link.disabled {
+  color: #777;
+}
+
+
+.CardFluid {
+  background-color: #181818;
+  padding: 4rem 0;
+}
+ .card {
+  color: #bebebe;
+  background-color: #181818;
+  border-color: #404040;
+}
+.card h1 {
+  /* color: #181818; */
+  color: #bebebe;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 64px;
+} 
+  .NavBarDiv ul li a:hover {
+    color: #FCD535 !important;
+  }
+  
+  .NavBarRegister {
+    background-color: #FCD535;
+    border-radius: 0.3rem;
+    padding: 0 0.4rem;
+    margin: 0 0.4rem;
+  }
+  
+  .NavBarRegister:hover {
+    background-color: rgba(252, 212, 54, 0.8);
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: #bebebe;
+  }
+  
+  .Price {
+    padding: 1rem;
+  }
+  
+  .Price:hover {
+    color: #bebebe;
+    border-radius: 0.4rem;
+    background-color: #272727;
+  }
+  
+  .Price a:hover {
+   color: #bebebe;
+    /* background-color: #181818; */
+  }
+  
+  .cardList {
+    color: #bebebe;
+    background-color: #000000;
+    border-radius: 0.4rem;
+  }
+  .cardList a{
+    color: #bebebe;
+    background-color: #000000;
+    border-radius: 0.4rem;
+  }
+  .cardList:hover{
+  
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  .cardList a:hover {
+    color: #bebebe;
+    background-color: #000000;
+  }
+  
+  .cardList:hover .MoreDesc {
+    display: block;
+  }
+  
+  .MoreDesc {
+    margin-top: 1rem;
+    color: #f5cb22 !important;
+    display: none;
+  }
+  
+  .cardList span {
+    color: #bebebe;
+    /* background-color: #181818; */
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul a {
+    color: #bebebe;
+    /* background-color: #181818; */
+  }
+  ul h5{
+    color: white;
+  }
+  
+  ul a:hover {
+    color: #ffffff;
+    /* background-color: #181818; */
+  }
+  
+  .Fluid {
+    color: #bebebe;
+    background-color: #181818;
+    margin: 3rem 0;
+    padding: 2rem 0;
+  }
+  
+  /* .card {
+    color: #bebebe;
+    background-color: #181818;
+    border: none;
+  }
+  
+  .card h1 {
+    color: #bebebe;
+    background-color: #181818;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 64px;
+  } */
+  
+  .QRCode {
+    color: #bebebe;
+    background-color: black;
+    text-align: justify;
+    border-radius: 0.5rem;
+  }
+  
+  .QRCode span {
+    color: #bebebe;
+    /* background-color: #181818; */
+    font-size: 12px;
+  }
+  
+  .QRCode h6 {
+    color: #bebebe;
+    /* background-color: #181818; */
+  }
+
